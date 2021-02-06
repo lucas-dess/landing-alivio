@@ -7,9 +7,6 @@ body {
 }
 
 
-
-
-
 header {
     display: flex;
     flex-direction: row;
@@ -20,32 +17,40 @@ header {
 
 header nav {
     display: flex;
-    margin-left: 600px;
-    justify-content: space-between;
-    width: 650px;
+    align-self: center;
+    justify-content: space-around;
+    margin-left: 10vw;
+    width: 100vw;
+}
+
+header nav .buttonStyle {
+    margin-left: 2vw;
+}
+
+.signTrial {
+    margin-left: 8vw;
+    margin-right: 9vw;
+}
+
+
+header img {
+    margin-left: 16vw;
+    height: 23px;
+    width: 80px;
     align-self: center;
 }
 
-header img {
-    margin-left: 275px;
-}
-
-a {
+a, header a {
     text-decoration: none;
-}
-
-header a {
     color: #292929;
     font-size: 20px;
 }
+
 
 header a:hover {
     font-weight: 500;
     color: #888888;
 }
-
-
-
 
 
 
@@ -58,7 +63,7 @@ header a:hover {
 
 h1 {
     margin: 0;
-    font-size: 60px;
+    font-size: 3.5em;
     font-weight: 600;
     color: #01996D;
     font-family: "Playfair Display", sans-serif;
@@ -68,39 +73,36 @@ h1 {
 .span1 {
     display: flex;
     flex-direction: column;
-    padding-left: 275px;
-    padding-top: 175px;
-    width: 480px;
+    padding-left: 12vw;
+    padding-top: 18vh;
+    width: 25vw;
 }
 
 .span1 p {
-    font-size: 20px;
+    font-size: 1.23em;
     color: #484848;
-    width: 420px;
+    width: 25vw;
     line-height: 31px;
 }
 
-.span1 a {
+.buttonStyle {
     font-weight: normal;
     font-size: 20px;
-    line-height: 25px;
     color: #FFFFFF;
     padding: 20px 50px;
-    background-color: #01996D;
+    background-color:#01996D;
     text-align: center;
     border-radius: 4px;
     width: fit-content;
-    margin-top: 35px;
 }
-
 
 
 
 
 .section2 {
-    margin-top: 170px;
-    margin-left: 275px;
-    margin-bottom: 100px;
+    margin-top: 10vw;
+    margin-left: 16vw;
+    margin-bottom: 5vh;
 }
 
 .section2 h6 {
@@ -118,69 +120,58 @@ h1 {
 .div1 h2 {
     font-family: "Playfair Display";
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3.2em;
     line-height: 157%;
     color: #01996D;
     margin: 0;
-    width: 584px;
+    width: 35vw;
 } 
 
 .div1 p {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.3em;
     line-height: 150%;
     color: #424242;
-    width: 670px;            
+    width: 42vw;            
 }
-
-
 
 
 
 .step-container p {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 150%;
     color: #424242;
-    margin-bottom: 40px;
+    margin-bottom: 5vh;
 }
 
 .step-container h4{
     font-family: "Playfair Display";
-    font-size: 30px;
+    font-size: 1.8em;
     line-height: 150%;
-    margin-left: 85px;
-    margin-top: 50px;
+    margin-left: 5vw;
+    margin-top: 5vh;
 }
 
 .step-container {
     display: flex;
-    margin-top: 140px;
+    margin-top: 20vh;
 }
 
 .step1 {
-    width: 390px;
-    margin-right: 95px;
+    width: 20vw;
+    margin-right: 8vw;
     background-image: url("/images/01.png");
     background-repeat: no-repeat;
 }
 
 .step2 {
-    width: 390px;
-    margin-right: 95px;
-    margin-top: 300px;
+    width: 20vw;
+    margin-right: 8vw;
+    margin-top: 20vh;
     background-image: url("/images/02.png");
     background-repeat: no-repeat;
 }
-
-.step3 {
-    width: 390px;
-    margin-right: 95px;
-    background-image: url("/images/03.png");
-    background-repeat: no-repeat;
-}
-
-
 
 
 
@@ -195,63 +186,49 @@ h1 {
     flex-direction: column;
     justify-content: center;
     margin-right: 32px;
-    margin-left: 275px;
+    margin-left: 9vw;
 }
 
 .carla h2 {
     font-family: "Playfair Display";
-    font-size: 50px;
+    font-size: 2.8em;
     line-height: 157%;
     color: white;
     margin-bottom: 0px;
-    width: 580px;
+    width: 30vw;
 }
 
 .carla p {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.2em;
     line-height: 157%;
     color: white;
-    width: 450px;
+    width: 30vw;
 }
 
-.carla a {
-    color: white;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-    color: #FFFFFF;
-    padding: 20px 50px;
-    background-color: #01996D;
-    text-align: center;
-    border-radius: 4px;
-    width: fit-content;
-    margin-top: 35px;
-}
 
-.section3 img {
-    padding: 229px 207px 177px 0px;
+.video {
+    display: flex;
+    align-self: center;
 } 
-
-
 
 
 
 .section4 {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 168px;
-    margin-right: 275px;
+    padding-top: 12vh;
+    padding-bottom: 16vh;
+    margin-right: 9vw;
 }
 
 .loira {
-    margin-left: 275px;
-    margin-right: 87px;
+    margin-left: 12vw;
+    margin-right: 7vw;
 }
 
 .letrinhas h6 {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.6em;
     line-height: 157%;
     color: #424242;
     margin-top: 0;
@@ -261,7 +238,7 @@ h1 {
 .letrinhas h2 {
     font-family: "Playfair Display";
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3em;
     line-height: 157%;
     color: #01996D;
     margin: 0;
@@ -270,50 +247,37 @@ h1 {
 
 .letrinhas p {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.3em;
     line-height: 150%;
     color: #424242;
-    margin-bottom: 40px;
+    margin-bottom: 8vh;
 } 
 
-.letrinhas a {
-    color: white;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-    color: #FFFFFF;
-    padding: 20px 50px;
-    background-color: #01996D;
-    text-align: center;
-    border-radius: 4px;
-    width: fit-content;
-    margin-top: 35px;
-}
 
 
 
 footer {
     background-color: #245852; 
-    padding-top: 95px;
-    padding-bottom: 144px; 
+    padding-top: 15vh;
+    padding-bottom: 18vh; 
 }
 
 footer span {
     flex-direction: column;
     display: flex;
-    margin-left: 275px;
+    margin-left: 12vw;
 }
 
 footer a {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.4em;
     line-height: 30px;
-    color: white;
-    margin-bottom: 60px;
+    color: white;   
+    margin-bottom: 9vh;
 }
 
 footer img {
     width: 107px;
     height: 31px;
-    margin-bottom: 74px;
+    margin-bottom: 9vh;
 }
